@@ -1,0 +1,136 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Menu/ Navbar */
+
+.header-div {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.a {
+  color: white;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  width: 150px;
+  padding-left: 2%;
+  cursor: pointer;
+  margin: 30px 0;
+  letter-spacing: 2px;
+}
+
+.menu-list {
+  display: none;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* color: black; */
+  font-size: 17px;
+  pointer-events: none;
+}
+
+/* Description Section */
+
+#Description {
+  padding: 35px 0;
+  color: black;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.Description-col-1 {
+  flex-basis: 35%;
+  margin-left: 25px;
+}
+
+.Description-col-1 h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+}
+
+.Description-col-2 img {
+  width: 700px;
+  border-radius: 3px;
+}
+.Description-col-2 {
+  flex-basis: 50%;
+  margin-right: 25px;
+}
+
+.others {
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* Flex Images */
+
+#Flex-img {
+  padding: 50px, 0;
+  margin-top: 25px;
+}
+
+.Images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.movie {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie img {
+  margin: 20px;
+  width: 400px;
+}
